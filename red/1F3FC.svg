@@ -1,0 +1,14 @@
+<svg id="emoji" viewBox="8 8 56 56" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="yellow-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop style="stop-color:#F26B76;stop-opacity:1;" offset="0%" />
+      <stop style="stop-color:#D91111;stop-opacity:1;" offset="100%" />
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <path fill="#debb90" d="M59.0349,60h-46.07A.9679.9679,0,0,1,12,59.0349v-46.07A.9679.9679,0,0,1,12.9651,12h46.07A.9679.9679,0,0,1,60,12.9651v46.07A.9679.9679,0,0,1,59.0349,60Z"/>
+  </g>
+  <g id="line">
+    <path fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2" d="M59.0349,60h-46.07A.9679.9679,0,0,1,12,59.0349v-46.07A.9679.9679,0,0,1,12.9651,12h46.07A.9679.9679,0,0,1,60,12.9651v46.07A.9679.9679,0,0,1,59.0349,60Z"/>
+  </g>
+</svg>
