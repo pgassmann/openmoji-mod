@@ -3,6 +3,13 @@
 Quick and easy customization of [OpenMoji](https://openmoji.org/) emoji pack. 
 Script will by default remove excessive padding around original emojis and replace yellow color with custom one.
 
+| Original | Modded   | Red Mod | Blue Mod |
+|----------|----------|----------|----------|
+| ![Original](https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/svg/1F60C.svg) | ![Original](yellow/1F60C.svg) | ![Original](red/1F60C.svg) | ![Original](blue/1F60C.svg) |
+| ![Original](https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/svg/1F61C.svg) | ![Original](yellow/1F61C.svg) | ![Original](red/1F60C.svg) | ![Original](blue/1F60C.svg) |
+| ![Original](https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/svg/1F928.svg) | ![Original](yellow/1F928.svg) | ![Original](red/1F60C.svg) | ![Original](blue/1F60C.svg) |
+
+
 ## Usage
 PHP CLI and imagick extension is required (`apt install php-cli php-imagick`).
 Place OpenMoji original images to svg directory. Then simply run:
@@ -14,7 +21,7 @@ or specify gradient color
 php improve-openmoji.php "#ffffff" "#dddddd"
 ```
 
-## Sample output
+## Example
 ![Preview](preview.png)
 
 ## Size consistency
@@ -24,7 +31,7 @@ For example
 
 | Original | Override | Modded   |
 |----------|----------|----------|
-| ![Original](svg/1F602.svg) | ![Original](overrides/1F602.svg) | ![Original](yellow/1F602.svg) |
+| ![Original](https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/svg/1F602.svg) | ![Original](overrides/1F602.svg) | ![Original](yellow/1F602.svg) |
 
 Feel free to contribute fixing other ones as well. 
 
