@@ -6,8 +6,8 @@ Script will by default remove excessive padding around original emojis and repla
 | Original | Modded   | Red Mod | Blue Mod |
 |----------|----------|----------|----------|
 | ![Original](https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/svg/1F60C.svg) | ![Original](yellow/1F60C.svg) | ![Original](red/1F60C.svg) | ![Original](blue/1F60C.svg) |
-| ![Original](https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/svg/1F61C.svg) | ![Original](yellow/1F61C.svg) | ![Original](red/1F60C.svg) | ![Original](blue/1F60C.svg) |
-| ![Original](https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/svg/1F928.svg) | ![Original](yellow/1F928.svg) | ![Original](red/1F60C.svg) | ![Original](blue/1F60C.svg) |
+| ![Original](https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/svg/1F61C.svg) | ![Original](yellow/1F61C.svg) | ![Original](red/1F61C.svg) | ![Original](blue/1F61C.svg) |
+| ![Original](https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/svg/1F928.svg) | ![Original](yellow/1F928.svg) | ![Original](red/1F928.svg) | ![Original](blue/1F928.svg) |
 
 
 ## Usage
