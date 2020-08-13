@@ -35,7 +35,7 @@ function mod_openmoji($source) {
     $im->trimImage(0);
 
     // check if image can be better fitted
-    for ($i = 8*3; $i >= 8; $i -= 8) {
+    for ($i = 8*3; $i >= 8; $i -= 2) {
         if ($im->getImageWidth() <= $sourceWidth-$i && $im->getImageHeight() <= $sourceWidth-$i) {
 
             $source = str_replace('viewBox="0 0 '.$sourceWidth.' '.$sourceWidth.'"', 'viewBox="'.($i/2).' '.($i/2).' '.($sourceWidth-$i).' '.($sourceWidth-$i).'"', $source);
@@ -65,8 +65,13 @@ print "using gradient colors $color1 - $color2\n\n";
 $files = glob("svg/*.svg");
 
 foreach ($files as $file) {
-    $input_file = $files; // "svg/".$file.".svg"; - when editing selection
+    $input_file = $file; // "svg/".$file.".svg"; - when editing selection
     $output_file = "yellow/". basename($input_file);
+
+    // check override
+    if (file_exists("overrides/" . basename($input_file))) {
+        $input_file = "overrides/" . basename($input_file);
+    }
 
     print "improving " . $input_file . "\n";
 

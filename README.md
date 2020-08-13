@@ -17,6 +17,17 @@ php improve-openmoji.php "#ffffff" "#dddddd"
 ## Sample output
 ![Preview](preview.png)
 
+## Size consistency
+Some smiley emojis are not same size and cannot be trimmed to the same size.
+You can find folder called `overrides` that contains modified versions that fit well with others. 
+For example
+
+| Original | Override | Modded   |
+|----------|----------|----------|
+| ![Original](svg/1F602.svg) | ![Original](overrides/1F602.svg) | ![Original](yellow/1F602.svg) |
+
+Feel free to contribute fixing other ones as well. 
+
 ## License
 ¹ OpenMoji graphics are licensed under the Creative Commons Share Alike License 4.0 ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
 
