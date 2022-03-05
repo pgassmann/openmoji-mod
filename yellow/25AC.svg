@@ -1,0 +1,17 @@
+<svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="yellow-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop style="stop-color:#FDE02F;stop-opacity:1;" offset="0%" />
+      <stop style="stop-color:#F7B209;stop-opacity:1;" offset="100%" />
+    </linearGradient>
+  </defs>
+  <g id="line-supplement">
+    <path fill="#000" d="M67 17H5V55H67V17Z"/>
+  </g>
+  <g id="color">
+    <path fill="#3F3F3F" d="M67 17H5V55H67V17Z"/>
+  </g>
+  <g id="line">
+    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M67 17H5V55H67V17Z"/>
+  </g>
+</svg>

@@ -1,8 +1,8 @@
-<svg id="emoji" viewBox="7 7 58 58" xmlns="http://www.w3.org/2000/svg">
+<svg id="emoji" viewBox="6 6 60 60" xmlns="http://www.w3.org/2000/svg">
 <defs>
     <linearGradient id="yellow-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop style="stop-color:#F2CB05;stop-opacity:1;" offset="0%" />
-      <stop style="stop-color:#D98E04;stop-opacity:1;" offset="100%" />
+      <stop style="stop-color:#FDE02F;stop-opacity:1;" offset="0%" />
+      <stop style="stop-color:#F7B209;stop-opacity:1;" offset="100%" />
     </linearGradient>
   </defs>
   <g id="color">
@@ -16,8 +16,6 @@
   <g id="skin"/>
   <g id="skin-shadow"/>
   <g id="line">
-    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M33.2301,24.7652"/>
-    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M50.9221,46.0367"/>
     <ellipse cx="28.0684" cy="32.818" rx="3" ry="5.4038"/>
     <ellipse cx="43.9316" cy="32.8216" rx="3" ry="5.4038"/>
     <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M58.4382,32.925C58.8059,34.5577,59,36.2562,59,38c0,12.7025-10.2975,23-23,23S13,50.7025,13,38 c0-1.7438,0.1941-3.4423,0.5618-5.075"/>

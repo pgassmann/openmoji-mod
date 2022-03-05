@@ -1,0 +1,14 @@
+<svg id="emoji" viewBox="12 12 48 48" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="yellow-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop style="stop-color:#FDE02F;stop-opacity:1;" offset="0%" />
+      <stop style="stop-color:#F7B209;stop-opacity:1;" offset="100%" />
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect id="Diamond_Color_1" x="18.3411" y="18.2994" width="35.3178" height="35.3178" transform="translate(35.9705 -14.9239) rotate(45)" fill="#f4aa41"/>
+  </g>
+  <g id="line">
+    <rect id="Diamond_Line_1" x="18.3411" y="18.2994" width="35.3178" height="35.3178" transform="translate(35.9705 -14.9239) rotate(45)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

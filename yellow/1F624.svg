@@ -1,8 +1,8 @@
 <svg id="emoji" viewBox="6 6 60 60" xmlns="http://www.w3.org/2000/svg">
 <defs>
     <linearGradient id="yellow-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop style="stop-color:#F2CB05;stop-opacity:1;" offset="0%" />
-      <stop style="stop-color:#D98E04;stop-opacity:1;" offset="100%" />
+      <stop style="stop-color:#FDE02F;stop-opacity:1;" offset="0%" />
+      <stop style="stop-color:#F7B209;stop-opacity:1;" offset="100%" />
     </linearGradient>
   </defs>
   <g id="color">
