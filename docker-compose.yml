@@ -1,0 +1,16 @@
+# docker-compose file to run php in container
+
+# usage:
+# rsync -rv ../openmoji/color/svg svg/
+# docker-compose up
+
+version: "3.8"
+services:
+  php:
+    # image: php
+    build: docker
+    user: '1000'
+    volumes:
+      - "./:/source"
+    working_dir: "/source"
+    command: php ./improve-openmoji.php

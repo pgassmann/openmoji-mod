@@ -1,7 +1,7 @@
 <?php
 
-$color1 = "#F2CB05";
-$color2 = "#D98E04";
+$color1 = "#FDE02F"; # "#F2CB05";
+$color2 = "#F7B209"; # "#D98E04";
 
 function inject_svg_defs($svg) {
     global $color1, $color2;
@@ -79,4 +79,3 @@ foreach ($files as $file) {
     $mod = mod_openmoji($source);
     file_put_contents($output_file, $mod);
 }
-
